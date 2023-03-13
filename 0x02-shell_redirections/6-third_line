@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR%3{print; exit}' iacta.txt
+head -3 iacta.txt | tail +3
